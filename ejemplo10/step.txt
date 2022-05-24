@@ -1,0 +1,16 @@
+# iniciamos nuestro proyecto
+npm init
+
+# Creamos las carpetas src y subcarpetas
+mkdir -p src/{assets,js,css}
+
+# Creamos los ficheros HTML, CSS y Javascript
+touch src/index.html
+touch src/js/index.js
+touch src/css/index.css
+
+#Instalamos el live-server
+npm install -g live-server
+
+#inicializamos el server
+ live-server src
