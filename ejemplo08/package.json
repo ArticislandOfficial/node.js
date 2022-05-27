@@ -1,0 +1,15 @@
+{
+  "name": "ejemplo08",
+  "version": "1.0.0",
+  "description": "Proyecto ejemplo 08",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cesar Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "moment": "^2.29.3"
+  }
+}
