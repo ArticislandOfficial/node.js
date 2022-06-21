@@ -3,7 +3,7 @@ class Cuadrado {
         this.lado = lado
     }
     area() {
-        return this.lado * 2;
+        return this.lado ** 2;
     }
     perimetro() {
         return this.lado * 4;
@@ -33,5 +33,5 @@ let validacionCampos = (nombreInput) => {
     return true;
 }
 module.exports ={
-    Cuadrado 
+    Cuadrado : Cuadrado
 }

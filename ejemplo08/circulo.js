@@ -4,7 +4,7 @@ class Circulo {
         this.radio = radio
     }
     area() {
-        return (this.radio * (this.pi ** 2)).toFixed(2);
+        return (this.pi * (this.radio ** 2)).toFixed(2);
     }
     perimetro() {
         return (this.pi * (2 * this.radio)).toFixed(2);
